@@ -2,11 +2,12 @@
 selectizejs using vue 2
 
 # Requirement
-window.$ = window.jQuery = require('jquery')
-require('selectize')
+<pre>window.$ = window.jQuery = require('jquery')
+require('selectize')</pre>
 
 # How to use
-<script>
+<pre>
+&lt;script&gt;
 import selectize from './Selectize.vue'
 
 export default {
@@ -24,8 +25,9 @@ export default {
     }
   }
 }
-</script>
+&lt;/script&gt;
 
-<template>
-  <selectize :options="options" v-model="myOption" :placeholder="'-- My placeholder --'"></selectize>
-</template>
+&lt;template&gt;
+  &lt;selectize :options="options" v-model="myOption" :placeholder="'-- My placeholder --'"&gt;&lt;/selectize&gt;
+&lt;/template&gt;
+</pre>
