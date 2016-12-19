@@ -1,5 +1,5 @@
 <template>
-	<select>
+  <select>
    <option v-bind:value="null">{{placeholder}}</option> 
   </select>
 </template>
