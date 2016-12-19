@@ -2,8 +2,10 @@
 selectizejs using vue 2
 
 # Requirement
-<pre>window.$ = window.jQuery = require('jquery')
-require('selectize')</pre>
+<pre>
+window.$ = window.jQuery = require('jquery')
+require('selectize')
+</pre>
 
 # How to use
 <pre>
